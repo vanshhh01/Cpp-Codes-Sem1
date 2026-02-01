@@ -8,7 +8,7 @@ int gcd(int a, int b){
 
 int main(){
     int a, b;
-    cout<<"enter both numbers: ";22
+    cout<<"enter both numbers: ";
     cin >> a >> b;
     cout << gcd(a, b);
     return 0;
