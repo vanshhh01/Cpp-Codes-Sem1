@@ -11,6 +11,7 @@ int main() {
     for(int i=0; i<l/2; i++){
         if(str[i]!=str[l-i-1]){
             flag=0;
+            break;
         }
     }
     if(flag==1){
